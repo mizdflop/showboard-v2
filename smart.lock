@@ -4,7 +4,8 @@
     "basePackages": {
       "autoform": {},
       "iron-router": {},
-      "accounts-entry": {}
+      "accounts-entry": {},
+      "fontawesome4": {}
     },
     "packages": {
       "autoform": {
@@ -21,6 +22,11 @@
         "git": "https://github.com/Differential/accounts-entry.git",
         "tag": "v0.7.3",
         "commit": "7facaa045d3720eeeba3420c28e48d5709188fe3"
+      },
+      "fontawesome4": {
+        "git": "https://github.com/chrismbeckett/meteor-fontawesome4.git",
+        "tag": "v1.1.0",
+        "commit": "7d2cb9119b7981b8f854b7051d302d4842311249"
       },
       "simple-schema": {
         "git": "https://github.com/aldeed/meteor-simple-schema.git",
