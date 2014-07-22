@@ -10,9 +10,9 @@
 		<div class="row nav-topics">
 			<div class="col-xs-6">
 				<ul class="nav nav-tabs" role="tablist">
-				  <li class="active"><a href="#">Popular Topics</a></li>
-				  <li><a href="#">Scenes</a></li>
-				  <li><a href="#">Characters</a></li>
+				  <li class="topicTabSorter {{ isActive 'Popular Topics'}}"><a href="#">Popular Topics</a></li>
+				  <li class="topicTabSorter {{ isActive 'Scenes'}}"><a href="#">Scenes</a></li>
+				  <li class="topicTabSorter {{ isActive 'Characters'}}"><a href="#">Characters</a></li>
 				</ul>
 			</div>
 			<div class="col-xs-6">
@@ -27,8 +27,6 @@
 					    <li><a href="#">Action</a></li>
 					    <li><a href="#">Another action</a></li>
 					    <li><a href="#">Something else here</a></li>
-					    <li class="divider"></li>
-					    <li><a href="#">Separated link</a></li>
 					  </ul>
 					</div>
 					<button type="button" class="btn btn-primary btn-rounded">Add Topic</button>
